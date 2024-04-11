@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  database:
+    image: mysql:5.7
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'crud'     
+      MYSQL_ROOT_PASSWORD: 'crud'
+    ports:
+      - '3301:3306'
+    volumes:
+      - 'db:/var/lib/mysql/data'
