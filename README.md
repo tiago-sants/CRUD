@@ -31,9 +31,6 @@ Siga estas etapas para instalar e executar o projeto:
 # Repository
 git clone https://github.com/tiago-sants/short-links.git
 
-# Directory
-$ cd short-links/
-
 # Install Dependencies
 $ yarn install # or npm install
 
