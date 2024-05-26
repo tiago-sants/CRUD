@@ -29,7 +29,7 @@ Siga estas etapas para instalar e executar o projeto:
 
 ```bash
 # Repository
-git clone https://github.com/tiago-sants/short-links.git
+git clone https://github.com/tiago-sants/CRUD.git
 
 # Install Dependencies
 $ yarn install # or npm install
